@@ -44,7 +44,7 @@ const Login = () => {
             setServerError("");
 
             const response = await fetch(
-                "http://localhost:3000/api/auth/login",
+                "https://jungle-aware-bat.abasthan.app/api/auth/login",
                 {
                     method: "POST",
                     headers: {

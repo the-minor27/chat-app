@@ -27,8 +27,7 @@ import {
     DialogDescription,
 } from "@/components/ui/dialog";
 
-const API_URL = "http://localhost:3000/api";
-
+const API_URL = "https://jungle-aware-bat.abasthan.app/api";
 const Chat = () => {
     const navigate = useNavigate();
 

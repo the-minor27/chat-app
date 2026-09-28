@@ -65,7 +65,7 @@ const Signup = () => {
             setServerError("");
 
             const response = await fetch(
-                "http://localhost:3000/api/auth/signup",
+                "https://jungle-aware-bat.abasthan.app/api/auth/signup",
                 {
                     method: "POST",
                     headers: {
